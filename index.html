@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header id="home" class="container">
+        <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,10 +17,10 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="#">Shoes</a>
-                  <a class="nav-link" href="#">Backpack</a>
-                  <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Subscribe</a>
+                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  <a class="nav-link" href="#shoes">Shoes</a>
+                  <a class="nav-link" href="#backpack">Backpack</a>
+                  <a class="nav-link" href="#subscribe" tabindex="-1" aria-disabled="true">Subscribe</a>
                 </div>
               </div>
             </div>
@@ -79,7 +79,7 @@
     </header>
     <main class="container">
         <section class="container overflow-hidden mt-5 categories">
-            <div class="row gx-5">
+            <div class="row g-5">
               <div class="col">
                <div class="p-3 border bg-warning rounded d-flex align-items-center justify-content-around">
                         <h1 class="text-white">Watch</h1>
@@ -101,7 +101,7 @@
             </div>
         </section>
         
-        <section class="mt-5">
+        <section id="shoes" class="mt-5">
             <h3>Shoes</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -145,7 +145,7 @@
                 </div>
               </div>
         </section>
-        <section class="mt-5">
+        <section id="backpack" class="mt-5">
             <h3>Backpack</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -190,7 +190,7 @@
               </div>
         </section>
 
-        <section style="height: 300px;" class="bg-info mt-5 d-flex justify-content-center align-items-center">
+        <section id="subscribe" style="height: 300px;" class="bg-info mt-5 d-flex justify-content-center align-items-center">
             <div>
                 <h1>LETS STAY IN TOUCH</h1>
                 <h6>Lorem ipsum dolor sit amet.</h6>
